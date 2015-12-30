@@ -1,0 +1,31 @@
+{
+  "name": "weather-zip",
+  "version": "1.0.0",
+  "description": "Returns a promise with weather information from forecast.io from zip code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtolb/weather-zip.git"
+  },
+  "keywords": [
+    "forecast.io",
+    "weather",
+    "weather-promise",
+    "zip",
+    "code"
+  ],
+  "author": "Daniel Tolbert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtolb/weather-zip/issues"
+  },
+  "homepage": "https://github.com/dtolb/weather-zip#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "forecast.io-bluebird": "0.0.1",
+    "node-zippopotamus": "^1.0.0"
+  }
+}
