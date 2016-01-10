@@ -1,4 +1,4 @@
-var Weather = require("./index.js");
+var Weather = require("weather-zip");
 
 weather = new Weather("YOUR_FORECASTIO_KEY");
 
